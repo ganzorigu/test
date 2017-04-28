@@ -198,6 +198,7 @@ int main(void)
 	lcd_init(LCD_DISP_ON);
 	_delay_ms(100);	
 	
+	print_console(PSTR("Hello world"));
 	
 	sei();		
     while (1) 
